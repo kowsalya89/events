@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.event-item-container {
+  margin-left: 0.5rem;
+  margin-right: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  width: 47%;
+}
+
+.event-item-container-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-item-img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.active-event-item {
+  border: 0.15rem solid #2dd4bf;
+}
+
+.event-item-name {
+  color: #f8fafc;
+  font-size: 2rem;
+  font-weight: 550;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.event-item-location {
+  color: #f8fafc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}

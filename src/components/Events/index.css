@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.events-bg-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.events-content-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a4b63;
+  padding: 2rem;
+}
+
+.events-header {
+  color: #f8fafc;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  align-self: flex-start;
+}
+
+.events-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

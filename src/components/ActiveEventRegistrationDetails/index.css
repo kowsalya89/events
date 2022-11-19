@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.active-event-registration-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  height: 100%;
+  width: 50%;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.no-active-event-container {
+  justify-content: flex-start;
+}
+
+.no-active-event-message {
+  color: #475569;
+  font-size: 2rem;
+  font-size: 550;
+}
+
+.event-registration-main-img {
+  width: 85%;
+  margin-bottom: 1.5rem;
+}
+
+.event-registration-success-img {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 2rem;
+}
+
+.event-registration-header {
+  color: #323f4b;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.event-registration-description {
+  color: #64748b;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.registration-button {
+  color: #ffffff;
+  background-color: #0967d2;
+  padding: 1rem;
+  width: 95%;
+  border-radius: 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 550;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
